@@ -2,7 +2,7 @@
   <b-navbar spaced>
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        // Justin Cheung
+        Justin Cheung
       </b-navbar-item>
       <b-navbar-item href="mailto:me@j43cheun.dev">
         <b-icon icon="email" />
@@ -17,13 +17,11 @@
         <b-icon icon="file-document" />
       </b-navbar-item>
     </template>
-    <!-- TODO
     <template #end>
       <b-navbar-item tag="router-link" :to="{ path: '/about' }">
         About
       </b-navbar-item>
     </template>
-    -->
   </b-navbar>
 </template>
 

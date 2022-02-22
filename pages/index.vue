@@ -6,16 +6,14 @@
     <div class="hero-body">
       <div class="container">
         <p class="title">
-          // Justin Cheung
+          Justin Cheung
         </p>
         <p class="subtitle">
           Software Developer / Goose Watcher
         </p>
-        <!-- TODO
         <b-button icon-left="information" tag="router-link" to="/about" type="is-dark" rounded>
           About Me
         </b-button>
-        -->
         <b-button icon-left="file-document" tag="a" href="docs/resume.pdf" type="is-dark" rounded>
           Resume
         </b-button>
@@ -29,6 +27,7 @@
 
 <script>
 export default {
+  layout: 'landing',
   head() {
     return {
       script: [
@@ -44,7 +43,7 @@ export default {
 
 <style scoped>
 .hero {
-  background: linear-gradient( rgb(0 0 0 / 25%), rgb(0 0 0 / 25%) ), url('/img/uw_campus_canada_goose.JPG');
+  background: linear-gradient( rgb(0 0 0 / 25%), rgb(0 0 0 / 25%) ), url('/img/uw-campus-canada-goose.JPG');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
